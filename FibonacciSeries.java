@@ -5,10 +5,18 @@ public class FibonacciSeries {
         System.out.println("enter a number :- ");
         Scanner s = new Scanner(System.in);
         int no = s.nextInt();
-        int temp = 0;
-        for (int i = 1; i <= no ; i ++ ){
-            temp = i-1 + i;
-            System.out.println(temp);
+
+        int val1 = 0;
+        int val2 = 1;
+        System.out.println(val1);
+        System.out.println(val2);
+        for (int i = 2; i <= no ; i ++ ){
+
+
+            int newval = val1 + val2;
+            System.out.println(newval);
+            val1 = val2;
+            val2 = newval;
         }
 
     }
