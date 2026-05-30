@@ -1,3 +1,4 @@
+package java_practice;
 import java.util.Scanner;
 import java.lang.Math;
 
@@ -9,6 +10,7 @@ public class AreaOfCircle {
         double pi = Math.PI;
         double area = pi*Math.pow(radius,2);
         System.out.println("Area is :"+ area);
+        s.close();
 
     }
 }

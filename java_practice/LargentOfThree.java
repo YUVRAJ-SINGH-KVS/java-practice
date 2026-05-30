@@ -1,3 +1,4 @@
+package java_practice;
 import java.util.Scanner;
 
 public class LargentOfThree {
@@ -8,14 +9,13 @@ public class LargentOfThree {
         System.out.println("ok");
 
         System.out.println("enter second number");
-        Scanner s2 = new Scanner(System.in);
         double secondno = s.nextDouble();
         System.out.println("ok");
 
         System.out.println("enter third number");
-        Scanner s3 = new Scanner(System.in);
         double thirdno = s.nextDouble();
         System.out.println("ok");
+        s.close();
         if(firstno>secondno && firstno>thirdno){
             System.out.println("first number is largest");
 

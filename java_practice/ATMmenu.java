@@ -1,3 +1,4 @@
+package java_practice;
 import java.util.Scanner;
 
 public class ATMmenu {
@@ -10,8 +11,8 @@ public class ATMmenu {
         switch (input){
             case 1:{
                 System.out.println("enter amount to deposit :- ");
-                Scanner s2 = new Scanner(System.in);
-                double amount = s2.nextDouble();
+                
+                double amount = s.nextDouble();
                 balance += amount;
                 System.out.println("Balance :- "+balance);
                 break;
@@ -19,8 +20,8 @@ public class ATMmenu {
             }
             case 2:{
                 System.out.println("enter amount to withdraw :- ");
-                Scanner s2 = new Scanner(System.in);
-                double amount = s2.nextDouble();
+                
+                double amount = s.nextDouble();
                 if (amount<balance){
                     balance -= amount;
                     System.out.println("Balance :- "+balance);
@@ -40,6 +41,6 @@ public class ATMmenu {
             default:{
                 System.out.println("invalid input");
             }
-        }
+        }s.close();
     }
 }

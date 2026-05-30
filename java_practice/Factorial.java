@@ -1,3 +1,4 @@
+package java_practice;
 import java.util.Scanner;
 
 public class Factorial {
@@ -8,7 +9,7 @@ public class Factorial {
         int fact = 1;
         for (int i=no ; i > 0 ; i--){
             fact *= i ;
-        }
+        }s.close();
         System.out.println("factorial is :- "+ fact);
     }
 }

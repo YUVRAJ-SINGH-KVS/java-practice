@@ -1,3 +1,4 @@
+package java_practice;
 import java.util.Scanner;
 
 
@@ -12,6 +13,7 @@ public class SumOfDigits {
             input = (int)input/10;
 
         }
+        s.close();
         System.out.println("sum is :- "+sum);
     }
 }

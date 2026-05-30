@@ -1,3 +1,4 @@
+package java_practice;
 import java.util.Scanner;
 
 public class GradeCalculator {
@@ -14,6 +15,6 @@ public class GradeCalculator {
             System.out.println("Grade :- C");
         }else{
             System.out.println("Grade :- F");
-        }
+        }s.close();
     }
 }

@@ -1,3 +1,4 @@
+package java_practice;
 import java.util.Scanner;
 
 public class FibonacciSeries {
@@ -17,7 +18,7 @@ public class FibonacciSeries {
             System.out.println(newval);
             val1 = val2;
             val2 = newval;
-        }
+        }s.close();
 
     }
 }
